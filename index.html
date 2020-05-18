@@ -34,7 +34,7 @@
   </head>
   <body class="container">
     <header
-      class="shadow mb-3 d-flex flex-column flex-md-row align-items-md-end justify-content-md-between p-4"
+      class="shadow mb-3 d-flex flex-column flex-md-row align-items-md-end align-items-center justify-content-md-between p-4"
     >
       <h1 class="m-0">Anna Ellerbrake</h1>
       <ul class="nav">
@@ -47,9 +47,13 @@
       </ul>
     </header>
     <main class="shadow p-3">
-      <section class="row pt-2 text-left align-items-center">
+      <section class="row pt-2 text-center text-md-left align-items-center">
         <div class="col-12 col-md-6 pl-4">
-          <img src="/img/0790.png" alt="Profilepicture Anna Ellerbrake" />
+          <img
+            class="rounded"
+            src="/img/0790.png"
+            alt="Profilepicture Anna Ellerbrake"
+          />
           <p class="mt-2">
             Anna Ellerbrake
           </p>
@@ -59,54 +63,65 @@
           <h2>
             Hobbies
           </h2>
-          <ul class="list-unstyled clearfix">
-            <li class="bg-info float-left mr-3 my-2 py-1 px-4">Horse-riding</li>
-            <li class="bg-info float-left mr-3 my-2 py-1 px-4">Yoga</li>
-            <li class="bg-info float-left mr-3 my-2 py-1 px-4">Reading</li>
-            <li class="bg-info float-left mr-3 my-2 py-1 px-4">Baking</li>
-            <li class="bg-info float-left mr-3 my-2 py-1 px-4">Long walks</li>
+          <ul class="list-unstyled">
+            <li class="badge text-white bg-info mr-3 my-2 py-2 px-4">
+              Horse-riding
+            </li>
+            <li class="badge text-white bg-info mr-3 my-2 py-2 px-4">Yoga</li>
+            <li class="badge text-white bg-info mr-3 my-2 py-2 px-4">
+              Reading
+            </li>
+            <li class="badge text-white bg-info mr-3 my-2 py-2 px-4">Baking</li>
+            <li class="badge text-white bg-info mr-3 my-2 py-2 px-4">
+              Long walks
+            </li>
+            <li class="badge text-white bg-info mr-3 my-2 py-2 px-4">
+              Swimming
+            </li>
           </ul>
 
           <h2>
             Interests
           </h2>
-          <ul class="list-unstyled clearfix text-center">
-            <li class="bg-info float-left mr-3 my-2 py-1 px-4">
+          <ul class="list-unstyled">
+            <li class="badge text-white bg-info mr-3 my-2 py-2 px-4">
               Entrepreneurship
             </li>
-            <li class="bg-info float-left mr-3 my-2 py-1 px-4">
+            <li class="badge text-white bg-info mr-3 my-2 py-2 px-4">
               Female Empowerment
             </li>
-            <li class="bg-info float-left mr-3 my-2 py-1 px-4">Beauty</li>
-            <li class="bg-info float-left mr-3 my-2 py-1 px-4">Netflix</li>
-            <li class="bg-info float-left mr-3 my-2 py-1 px-4">Tec-Trends</li>
+            <li class="badge text-white bg-info mr-3 my-2 py-2 px-4">Beauty</li>
+            <li class="badge text-white bg-info mr-3 my-2 py-2 px-4">
+              Netflix
+            </li>
+            <li class="badge text-white bg-info mr-3 my-2 py-2 px-4">
+              Tec-Trends
+            </li>
           </ul>
         </div>
       </section>
       <section
         id="contact"
-        class="row border border-info m-2 px-2 pt-3 text-md-left"
+        class="row border border-info rounded m-2 px-2 pt-3 text-md-left text-center"
       >
-        <div class="col-12 col-md-6">
-          <address>
-            <h3>
-              Phone
-            </h3>
-            +49 171 6133419
-          </address>
-        </div>
-        <div class="col-12 col-md">
-          <address>
-            <h3>
-              Mail
-            </h3>
-            anna.ellerbrake@schullv.de
-          </address>
-        </div>
+        <address class="col-12 col-md-6">
+          <h3>
+            Phone
+          </h3>
+          +49 171 6133419
+        </address>
+
+        <address class="col-12 col-md">
+          <h3>
+            Mail
+          </h3>
+          anna.ellerbrake@schullv.de
+        </address>
       </section>
       <section class="row text-center mt-4">
         <div class="col-12 col-md-4 my-2">
           <a
+            class="text-info"
             href="https://github.com/Anna-LenaEllerbrake"
             target="_blank"
             rel="noopener noreferrer"
@@ -120,6 +135,7 @@
         </div>
         <div class="col-12 col-md-4 my-2">
           <a
+            class="text-info"
             href="https://codepen.io/annaellerbrake"
             target="_blank"
             rel="noopener noreferrer"
@@ -133,6 +149,7 @@
         </div>
         <div class="col-12 col-md-4 my-2">
           <a
+            class="text-info"
             href="https://www.linkedin.com/in/a-ellerbrake/"
             target="_blank"
             rel="noopener noreferrer"
@@ -147,16 +164,16 @@
         </div>
       </section>
       <section class="row">
-        <div class="col-12 col-md-6 p-4 text-left">
-          <h3>About Anna</h3>
+        <div class="col-12 col-md-6 p-4 text-md-left text-center">
+          <h3>Hi, I am Anna!</h3>
           <p>
-            Hi, I am Anna! I first got in touch with coding in school. Back then
-            one of my graduation subjects was computer science and I loved
-            learning some java and mysql, so it was no surprise that when I
-            started studying mathematics, I chose computer science as
-            sidesubject. During this time I started a job as a working student
-            in my current company
+            I first got in touch with coding in school. Back then one of my
+            graduation subjects was computer science and I loved learning some
+            java and mysql, so it was no surprise that when I started studying
+            mathematics, I chose computer science as sidesubject. During this
+            time I started a job as a working student in my current company
             <a
+              class="text-info"
               href="https://www.schullv.de"
               target="_blank"
               rel="noopener noreferrer"
@@ -171,16 +188,19 @@
             that i am the right person to switch the job, go through a web
             development bootcamp and learn the basics! That was the right
             decision in my responsibility as a shareholder and it was the one
-            ultimative chance for me personal to tollow my passion for
+            ultimative chance for me personally to follow my passion for
             programming. I am very excited to learn a bunch of new things and
-            looking forward to the future where I will be responsible for
-            SchulLVs website and mobile apps!
+            looking forward to the future where I will handle both SchulLVs
+            website and mobile apps!
           </p>
         </div>
 
-        <div id="biography" class="col-12 col-md-6 p-4 text-left">
+        <div
+          id="biography"
+          class="col-12 col-md-6 p-4 text-md-left text-center"
+        >
           <h3>Biography</h3>
-          <table class="table table-borderless p-0">
+          <table class="table table-borderless p-0 text-left">
             <tr>
               <td class="px-0">
                 05/2020 - 07/2020
